@@ -131,8 +131,8 @@
         default_layer {
             bindings = <
 &none          &kp Q        &kp W        &kp E        &kp R       &kp T           &kp Y           &kp U         &kp I            &kp O         &kp P          &none
-&none          &kp A        &kp S        &kp D        &kp F       &kp G           &kp H           &kp J         &kp K            &kp L         &kp SEMI       &none
-&none          &hm LCTRL Z  &hm LALT X   &hm LSHFT C  &hm LWIN V  &hm TAB B       &hm TAB N       &hm RWIN M    &hm RSHFT COMMA  &hm RALT DOT  &hm RCTRL SQT  &none
+&none          &hm LWIN A   &hm LALT S   &hm LSHFT D  &hm LCTRL F  &hm TAB G       &hm TAB H       &hm RCTRL J   &hm RSHFT K      &hm RALT L    &hm RWIN SEMI  &none
+&none          &kp Z        &kp X        &kp C        &kp V       &kp B           &kp N           &kp M         &kp COMMA        &kp DOT       &kp SQT        &none
 &mt LCTRL ESC  &mo 3        &lt 1 SPACE  &mkp RCLK    &mkp LCLK   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN     &lt 2 SPACE   &mo 4          &mt RALT ENTER
             >;
         };
@@ -140,8 +140,8 @@
         function {
             bindings = <
 &trans  &kp F1     &kp F2    &kp F3      &kp F4    &kp F5          &kp F6          &kp F7    &kp F8      &kp F9    &kp F10    &trans
+&trans  &kp LWIN   &kp LALT  &kp LSHIFT  &kp LCTRL  &kp TAB        &kp TAB         &kp RCTRL  &kp RSHIFT  &kp RALT  &kp RWIN   &trans
 &trans  &kp F8     &kp F9    &kp F10     &kp F11   &kp F12         &none           &none     &none       &none     &none      &trans
-&trans  &kp LCTRL  &kp LALT  &kp LSHIFT  &kp LWIN  &kp TAB         &kp TAB         &kp RWIN  &kp RSHIFT  &kp RALT  &kp RCTRL  &trans
 &trans  &trans     &trans    &none       &none     &studio_unlock  &studio_unlock  &none     &none       &trans    &trans     &trans
             >;
         };
@@ -149,8 +149,8 @@
         row {
             bindings = <
 &trans  &none      &none     &none      &none     &none           &kp INS         &kp PG_UP  &kp UP     &kp PG_DN  &kp LS(LG(S))   &trans
-&trans  &none      &none     &none      &none     &none           &kp BSPC        &kp LEFT   &kp DOWN   &kp RIGHT  &kp LS(LG(N4))  &trans
-&trans  &kp LCTRL  &kp LALT  &kp LSHFT  &kp LWIN  &kp TAB         &kp DEL         &kp HOME   &kp LSHFT  &kp END    &kp LSHFT       &trans
+&trans  &kp LWIN   &kp LALT  &kp LSHFT  &kp LCTRL  &kp TAB        &kp BSPC        &kp LEFT   &kp DOWN   &kp RIGHT  &kp LS(LG(N4))  &trans
+&trans  &none      &none     &none      &none      &none          &kp DEL         &kp HOME   &kp LSHFT  &kp END    &kp LSHFT       &trans
 &trans  &trans     &trans    &none      &none     &studio_unlock  &studio_unlock  &none      &none      &trans     &trans          &trans
             >;
         };
