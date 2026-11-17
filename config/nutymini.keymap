@@ -145,18 +145,18 @@
         default_layer {
             bindings = <
 &none          &kp Q        &kp W        &kp E        &kp R       &kp T           &kp Y           &kp U         &kp I            &kp O         &kp P          &none
-&none          &hm LWIN A   &hm LALT S   &hm LSHFT D  &hm LWIN F   &hm TAB G      &hm TAB H       &hm RWIN J    &hm RSHFT K      &hm RALT L    &hm RWIN SEMI  &none
+&none          &hm LWIN A   &hm LALT S   &hm LSHFT D  &hm LWIN F   &kp G          &kp H           &hm RWIN J    &hm RSHFT K      &hm RALT L    &hm RWIN SEMI  &none
 &none          &kp Z        &kp X        &kp C        &kp V       &kp B           &kp N           &kp M         &kp COMMA        &kp DOT       &kp SQT        &none
-&mt LCTRL ESC  &mo 4        &lt 2 SPACE  &mkp RCLK    &mkp LCLK   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN     &lt 3 SPACE   &mo 5          &mt RALT ENTER
+&kp TAB        &mo 4        &lt 2 SPACE  &mkp RCLK    &mkp LCLK   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN     &lt 3 SPACE   &mo 5          &mt RALT ENTER
             >;
         };
 
         win {
             bindings = <
 &none          &kp Q        &kp W        &kp E        &kp R       &kp T           &kp Y           &kp U         &kp I            &kp O         &kp P          &none
-&none          &hm LCTRL A  &hm LALT S   &hm LSHFT D  &hm LCTRL F  &hm TAB G      &hm TAB H       &hm RCTRL J   &hm RSHFT K      &hm RALT L    &hm RCTRL SEMI &none
+&none          &hm LCTRL A  &hm LALT S   &hm LSHFT D  &hm LCTRL F  &kp G          &kp H           &hm RCTRL J   &hm RSHFT K      &hm RALT L    &hm RCTRL SEMI &none
 &none          &kp Z        &kp X        &kp C        &kp V       &kp B           &kp N           &kp M         &kp COMMA        &kp DOT       &kp SQT        &none
-&mt LWIN ESC   &mo 4        &lt 2 SPACE  &mkp RCLK    &mkp LCLK   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN     &lt 3 SPACE   &mo 5          &mt RWIN ENTER
+&kp TAB        &mo 4        &lt 2 SPACE  &mkp RCLK    &mkp LCLK   &studio_unlock  &studio_unlock  &kp C_VOL_UP  &kp C_VOL_DN     &lt 3 SPACE   &mo 5          &mt RWIN ENTER
             >;
         };
 
